@@ -1,3 +1,7 @@
+body {
+    font-family: "Sofia", sans-serif;
+}
+
 #mainDiv {
     width: 80%;
     max-width: 600px;
@@ -6,6 +10,7 @@
     padding: 15px;
     background-color: #2d30ec;
     border-radius: 15px;
+    
 }
 
 #resultDiv {
@@ -28,7 +33,7 @@
 
 .btno {
     background-color: aqua;
-    border-radius: 20px;
+    border-radius: 15px;
     width: 15%;
     margin-bottom: 50px;
     margin: 5px;
@@ -37,8 +42,8 @@
     height: 50px;
     padding-top: 10px;
     font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: 0.5s;
+    font-family: "Sofia", sans-serif;
+    transition: 0.4s;
 }
 
 .btnC {
@@ -47,7 +52,15 @@
     width: 30%;
     padding-top: 20px;
     font-size: larger;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btnC:hover{
+    cursor: pointer;
+    background-color: rgba(27, 176, 189, 0.913);
+}
+
+.btnC:active {
+    background-color: rgba(8, 114, 124, 0.913);
 }
 
 .btno:hover {
@@ -57,4 +70,8 @@
 
 .btno:active {
     background-color: rgba(8, 114, 124, 0.913);
+}
+
+#Dot {
+    font-weight: 999;
 }
