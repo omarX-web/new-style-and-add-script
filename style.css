@@ -1,0 +1,60 @@
+#mainDiv {
+    width: 80%;
+    max-width: 600px;
+    border: 9px double rgb(0, 255, 255) ;
+    margin: auto;
+    padding: 15px;
+    background-color: #2d30ec;
+    border-radius: 15px;
+}
+
+#resultDiv {
+    width: 80%;
+    background-color: rgb(25, 213, 231);
+    padding: 15px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.line {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btno {
+    background-color: aqua;
+    border-radius: 20px;
+    width: 15%;
+    margin-bottom: 50px;
+    margin: 5px;
+    margin-left: 15px;
+    margin-bottom: 1px;
+    height: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+
+.btnC {
+    background-color: rgb(25, 213, 231);
+    border-radius: 20px;
+    width: 30%;
+    padding-top: 20px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btno:hover {
+    cursor: pointer;
+    background-color: rgba(27, 176, 189, 0.913);
+}
+
+.btno:active {
+    background-color: rgba(8, 114, 124, 0.913);
+}
