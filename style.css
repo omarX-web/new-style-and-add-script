@@ -1,28 +1,30 @@
 body {
     font-family: "Sofia", sans-serif;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px #ababab;
 }
 
 #mainDiv {
     width: 80%;
     max-width: 600px;
-    border: 9px double rgb(0, 255, 255) ;
     margin: auto;
     padding: 15px;
-    background-color: #0c97af;
+    background-color: rgb(28, 26, 34);
     border-radius: 15px;
     
 }
 
 #resultDiv {
     width: 80%;
-    background-color: rgb(25, 213, 231);
+    background-color: rgb(255, 255, 255);
     padding: 15px;
-    border-radius: 50px;
+    border-radius: 20px;
     display: flex;
     justify-content: end;
     font-size: 20px;
     margin: auto;
     margin-bottom: 25px;
+    color: rgb(0, 0, 0);
 }
 
 .line {
@@ -32,12 +34,12 @@ body {
 }
 
 .btno {
-    background-color: aqua;
+    background-color: rgba(236, 236, 236, 1);
     border-radius: 15px;
     width: 15%;
     margin-bottom: 50px;
     margin: 5px;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-bottom: 1px;
     height: 50px;
     padding-top: 10px;
@@ -47,29 +49,30 @@ body {
 }
 
 .btnC {
-    background-color: rgb(25, 213, 231);
+    background-color: rgba(236, 236, 236, 1);
     border-radius: 20px;
     width: 30%;
     padding-top: 20px;
     font-size: larger;
+    transition: 0.5s;
 }
 
 .btnC:hover{
     cursor: pointer;
-    background-color: rgba(27, 176, 189, 0.913);
+    background-color: rgba(67, 75, 75, 0.913);
 }
 
 .btnC:active {
-    background-color: rgba(8, 114, 124, 0.913);
+    background-color: rgba(83, 89, 92, 0.435);
 }
 
 .btno:hover {
     cursor: pointer;
-    background-color: rgba(27, 176, 189, 0.913);
+    background-color: rgba(67, 75, 75, 0.913);
 }
 
 .btno:active {
-    background-color: rgba(8, 114, 124, 0.913);
+    background-color: rgba(83, 89, 92, 0.435);
 }
 
 #Dot {
