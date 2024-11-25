@@ -6,8 +6,11 @@ function AddNumber(number) {
 }
 
 function calculate() {
-    const result = eval(equation);
-    resultDiv.innerText = result;
+    if (equation !="") {
+        const result = eval(equation);
+        resultDiv.innerText = result;
+        equation = "";
+    }
 }
 
 function ClearDiv() {
