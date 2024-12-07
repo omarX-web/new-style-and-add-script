@@ -1,6 +1,6 @@
 const resultDiv = document.getElementById("resultDiv");
 var equation = "";
-const dangerCharcter = ["*", "/"]
+const dangerCharcter = ["*", "/", "+", "-"]
 
 function AddNumber(number) {
     const endCharcter = equation.slice(-1)
